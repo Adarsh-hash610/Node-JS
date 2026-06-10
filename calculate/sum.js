@@ -9,4 +9,6 @@ function calculateSum(a,b){
 
     console.log(`sum of two numbers are ${sum}`);
 }
-module.exports = {x, calculateSum};
+// module.exports = {x, calculateSum};
+module.exports.x = x;
+module.exports.calculateSum = calculateSum;

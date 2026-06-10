@@ -4,10 +4,20 @@ var name = "Namaste Node JS"
 console.log(name);
 // console.log(globalThis);
 
-const {x, calculateSum} = require ('./sum.js');
+
+// const {x, calculateSum} = require ('./calculate/sum.js');
+// const {multiply} = require('./calculate/multiply.js')
+
+const {calculateSum,x, multiply} = require('./calculate/index.js');
+
+const data = require('./data.json');
+
+console.log(JSON.stringify(data));
+
 let a= 10;
 let b =20;
-calculateSum(a,b)   
+calculateSum(a,b) 
+multiply(a,b);  
 
 console.log(x);
 
