@@ -4,7 +4,7 @@ dns.setServers(['8.8.8.8', '1.1.1.1']);
 
 const { MongoClient } = require('mongodb');
 
-const URI = "mongodb+srv://adarshpandey:AdarshPandey@cluster0.5oyhjdy.mongodb.net/";
+const URI = "";
 
 console.log(URI);
 
